@@ -1,6 +1,6 @@
 package com.example.tema2actividades.Actividad18
 
-data class Tarea(val nombre: String, val descripcion: String, val prioridad: Prioridad, val completada: Boolean){
+data class Tarea(val nombre: String, var descripcion: String, var prioridad: Prioridad, var completada: Boolean){
     
 }
 
