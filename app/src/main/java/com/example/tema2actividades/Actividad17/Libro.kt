@@ -1,6 +1,10 @@
 package com.example.tema2actividades.Actividad17
 
-open class Libro (private val titulo: String,private val autor :String, private val any:Int,private val precio: Double) {
+open class Libro (
+    private val titulo: String,
+    private val autor :String,
+    private val any:Int,
+    private val precio: Double) {
     override fun toString(): String {
         return "Titulo: $titulo\n Autor: $autor\n Año: $any\n Precio: $precio\n"
     }
